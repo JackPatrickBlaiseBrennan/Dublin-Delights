@@ -1,0 +1,11 @@
+{
+"type": "sftp",
+"host": "host.ie",
+"username": "user",
+"password": "pass",
+"port": 22,
+"remotePath": "/path",
+"file_permissions": "700",
+"dir_permissions": "701",
+"uploadOnSave": true
+}

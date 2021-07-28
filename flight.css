@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    margin: auto;
+    color: black;
+    font-size: 16px;
+    font-family: 'BioRhyme', cursive;
+}
+header {
+    font-size: 1em;
+    color: #AF002A;
+    grid-area: top;
+}
+ header > h1, footer p, nav{
+    display: inline;
+}
+header, article{
+    width: 100%;
+}
+nav, header, nav a {
+    background-color: black;
+}
+nav ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+}
+nav li, form{
+  margin: 2em;
+}
+nav a {
+    padding: 2em;
+    text-decoration: none;
+}
+nav a:hover {
+    transition: background-color 0.7s;
+    background-color: #AF002A;
+}
+article {
+    font-size: 2em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 11em 0em;
+}
+footer {
+    margin: 0em 2em 0em 2em;
+    padding: 2em;
+    background-color: #800000;
+    grid-area: bottom;
+}
+footer small{
+    display: block;
+}
+footer a, footer, nav a, article{
+    color: white;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+section{
+  flex-basis: 25%;
+
+}
+#initial{
+  flex-basis: 80%;
+}
+
+section, #initial{
+    -webkit-box-shadow:0em 0em 1em rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0em 0em 1em rgba(0, 0, 0, 0.5);
+    box-shadow:0em 0em 1em rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    background-color: #FFFFFF;
+    margin: 5em auto;
+    width: 80%;
+    border-radius: 1em;
+}
+nav ul {
+    flex-direction: row;
+}
+em{
+	text-decoration: underline;
+}
+footer, article, header{
+	text-align: center;
+}
+legend{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+input:disabled{
+  display: block;
+}
+input[type=submit]{
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 1em;
+  text-decoration: none;
+}
+input[type=submit]:hover {
+  transition: background-color 0.7s;
+  background-color: #AF002A;
+}
+.disabled{
+  display: block;
+  pointer-events:none;
+  border-radius: 1em;
+  background: #DCDCDC;
+}

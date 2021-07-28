@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="refresh" content="0; URL='https://cs1.ucc.ie/~jpb5/cgi-bin/lab7/index.py'" />
+        <title>Dublin Delights</title>
+        <link rel="stylesheet" href="flight.css">
+        <script src="flight.js" type="module"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Flights from Dublin</h1>
+            <nav>
+                <ul>
+                    <li><a href = "">Home</a></li>
+                    <li><a href = "Login.py">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+          <section id = "initial">
+          <form id ="searcher">
+                <label for="airport">AIRPORT CODE </label>
+                <select id="airport">
+                  <option value="">Any</option>
+                </select>
+                <label for="depart">DEPARTURE </label>
+                <input type="date" name="depart" id="depart" />
+                <input type="submit" value="GET" />
+            </form>
+          </section>
+        </main>
+    </body>
+</html>
